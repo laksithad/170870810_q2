@@ -1,0 +1,81 @@
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+header {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+body {
+  text-align: center;
+  background-color: grey;
+}
+
+h6 {
+  font-style: italic;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-size: sans-serif;
+  font-size: 20px;
+
+}
+
+img {
+  width:820px;
+  height:500px;
+}
+
+.forwardarrow {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 120px;
+    top: 1450px;
+}
+
+.backarrow {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 120px;
+  top: 1350px;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: px;
+  }
+  h6{
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+  img {
+    height: 70%;
+    width: 70%;
+  }
+
+  .forwardarrow {
+    height: 10%;
+    width: 10%;
+    top: 90%;
+    right: 10%;
+  }
+
+  .backarrow {
+    height: 10%;
+    width: 10%;
+    top: 90%;
+    left: 10%;
+  }
+
+}
